@@ -1,0 +1,42 @@
+{% extends "proyectowebapp/base.html" %}
+{% load static %}
+{% block content %}
+{% for post in posts %} <!--RECORREMOS CON FOR LO CONTENIDO DENTRO DE SERVICIOS-->
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{post.imagen.url}}" alt="" style="width: 50%">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-lower" style="font-style: oblique; font-size: 30px">{{post.titulo}}</span>
+                    <span class="section-heading-upper" style = "font-size: 10px">{{post.contenido}}</span>
+                    <span class="section-heading-upper" style="text-align: right; font-size: 8px; font-style: oblique"> Autor: {{post.author}}</span>
+                    <span class="section-heading-upper" style="text-align: center; font-size: 10px;">Fecha: {{post.created}}</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+    <section>
+
+        <div style = "width: 75%; background-color: yellow; margin: auto; text-align: center; font-style:oblique; font-color: black ">
+
+            Categorias: 
+
+            {% for post in posts %}
+                {% for categoria in post.categoria.all%}
+
+                    {{categoria.nombre}} |
+
+                {% endfor %}
+
+                
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+{% endblock %}
