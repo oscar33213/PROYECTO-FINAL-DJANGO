@@ -54,4 +54,7 @@ def logear(request):
         form = AuthenticationForm()
     
     return render(request, 'login/login.html', {"form": form})
+
+
+
     
