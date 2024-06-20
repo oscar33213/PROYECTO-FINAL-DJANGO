@@ -81,7 +81,7 @@ p {
 
 #mainNav {
   background-color: rgb(231, 161, 8);
-  font-family: 'Raleway';
+  font-family: 'Arial';
 }
 
 #mainNav .navbar-brand {
@@ -134,8 +134,8 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgba(24, 64, 8);
-    color: cornsilk;
+    background-color:  #580500;
+    color: rgb(194, 189, 189);
     position: absolute;
   }
   .intro .intro-text .intro-button {
@@ -152,11 +152,6 @@ p {
   }
 }
 
-.cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: rgb(242, 245, 240);
-}
 
 .cta .cta-inner {
   position: relative;
@@ -293,7 +288,7 @@ ul.errorlist{
 
 .contenedorFormulario {
 
-  background-color: rgb(49, 99, 29);
+  background-color: rgb(88, 5, 0);
   width: 50%;
 
   margin: 10px auto;

@@ -28,7 +28,8 @@ urlpatterns = [
     path('contacto/',include('contacto.urls')),
     path('autenticacion/', include('autenticacion.urls')),
     path('politicas/', include('politicas.urls')),
-    path('legal/', include('legal.urls'))
+    path('legal/', include('legal.urls')),
+    path('galeria/', include('galeria.urls')),
     
     
 ]
