@@ -17,6 +17,7 @@ h6 {
 
 p {
   line-height: 1.75;
+  color: white;
 }
 
 .text-faded {
@@ -81,11 +82,14 @@ p {
 
 #mainNav {
   background-color: rgb(231, 161, 8);
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(219, 122, 10, 0.65));
   font-family: 'Arial';
+
 }
 
 #mainNav .navbar-brand {
   color: #ff0000;
+  
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -134,7 +138,7 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color:  #580500;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(219, 122, 10, 0.65));
     color: rgb(194, 189, 189);
     position: absolute;
   }
@@ -157,8 +161,9 @@ p {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
-  color: cornsilk;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(219, 122, 10, 0.65));
+  color: rgb(255, 255, 255);
+  font-style: oblique;
 }
 
 .cta .cta-inner:before {
@@ -224,7 +229,7 @@ p {
 }
 
 .footer {
-   background-color: rgba(231, 161, 8);
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(219, 122, 10, 0.65));
 }
 
 
@@ -288,7 +293,7 @@ ul.errorlist{
 
 .contenedorFormulario {
 
-  background-color: rgb(88, 5, 0);
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(219, 122, 10, 0.65));
   width: 50%;
 
   margin: 10px auto;
